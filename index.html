@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="app">
+        <!--Header-->
+        <div class="hearder">
+            <!--Header 1-->
+            <div class="top-header">
+                <div class="login-header"><a href="#">Đăng Nhập</a></div>
+                <div class="res-header"><a href="#">Đăng Ký</a></div>
+            </div>
+              <!--Header 2-->
+            <div class="center-header">
+                <div class="logo">
+
+                </div>
+                <!--form Search-->
+                <div class="form-search">
+                    <nav class="navbar navbar-expand-lg navbar-dark indigo mb-4">
+                        <!-- Collapsible content -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      
+                          <form class="form-inline ml-auto">
+                            <div class="md-form my-0">
+                              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            </div>
+                            <button class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit"><i class="fas fa-search"></i></button>
+                          </form>
+                        </div>
+                        <!-- Collapsible content -->
+                      </nav>
+                </div>
+                <!--icon-->
+                <div class="icon-header">
+                    <i class="fas fa-book"></i>
+                    <p>Tủ Truyện</p>
+                </div>
+            </div>
+              <!--Header 3-->
+            <div class="bottom-header">
+
+               <ul class="menu-1">
+                   <!--Thể loại-->
+                    <li class="dropdown dropdown-hover">
+                        <a href="#">
+                            <i class="fas fa-bars"></i>
+                            Thể Loại
+                        </a>
+                        <!--DropDown-->
+                        <div class="dropdown-content">
+                            <div class="no-gutters">
+                                    <div class="cot-1">
+                                    <a href="#" class=" dropdown-item">
+                                        Tất Cả
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Huyền Huyễn
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Võng Du
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Đồng Nhân
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Cạnh Kỹ
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Kiếm Hiệp
+                                    </a>
+                                </div>
+                                <div class="cot-2">
+                                    <a href="#" class=" dropdown-item">
+                                        Tiên Hiệp
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        Khoa Huyễn
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Đô Thị
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Lịch Sử
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                    Huyễn nghi
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Kỳ Ảo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">
+                            Bảng Xếp Hạng
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="#" class=" dropdown-item">
+                               Thịnh Hành
+                            </a>
+                            <a href="#" class=" dropdown-item">
+                                Đọc Nhiều
+                            </a>
+                            <a href="#" class=" dropdown-item">
+                                Tặng Thưởng
+                            </a>
+                            <a href="#" class=" dropdown-item">
+                                Đề Cử
+                            </a>
+                            <a href="#" class=" dropdown-item">
+                                Yêu Thích
+                            </a>
+                            <a href="#" class=" dropdown-item">
+                               Thảo Luận
+                            </a>
+                        </div>
+                    </li>
+               </ul>
+               <ul class="up">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-arrow-circle-up"></i>
+                        Đăng
+                    </a>
+                </li>
+               </ul>
+            </div>
+        </div>
+        <!--Main-->
+        <div class="main">
+            <!--Top-1-->
+            <div class="top-1">
+                <div class="tittle-main">
+                    <h1>Biên Tập Viên Đề Cử</h1>
+                    <a href="#">Xem Tất Cả</a>
+                </div>
+                <!--Book-1-->
+                <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-1.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Bắt Đầu Mười Lần Liên Rút Sau Đó Vô Địch</h3>
+                        <p>Sở Cuồng Nhân mang theo auto game xuyên qua đến tu hành thế giới, bắt đầu cũng là ma...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Lưu Phong Tiếu</p>
+                        </div>
+
+                        <div>
+                            <p>Huyền Huyễn</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Book-2-->
+                <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-2.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Ta Chính Là Thần</h3>
+                        <p>Doãn Thần tên gọi là Thần.Hắn chưa từng có nghĩ tới, có chính một ngày sẽ thật trở thành...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Lịch Sử Xuy Xuy</p>
+                        </div>
+
+                        <div>
+                            <p>Huyền Huyễn</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Book-3-->
+                <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-3.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Ta Tại Trần Yêu Ti Bên Trong Ăn Yêu Quái</h3>
+                        <p>Đây là một cái yêu ma hoành hành, nguy cơ tứ phía thế giới.Xuyên việt đến đây Tần Thiểu...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Ngũ Chí</p>
+                        </div>
+
+                        <div>
+                            <p>Huyền Huyễn</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Book-4-->
+                <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-4.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Ta Thật Không Muốn Nhìn Thấy Bug</h3>
+                        <p>Vạn vật đều là có bug, mà ta nắm giữ nhìn đến bug ánh mắt.Đối lấy 【 Tân Hoa từ điển 】...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Ngô Đồng Hỏa</p>
+                        </div>
+
+                        <div>
+                            <p>Huyền Huyễn</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Book-5-->
+                <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-5.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Ta Trạch Trăm Năm Ra Ngoài Đã Vô...</h3>
+                        <p>Vượt qua thành huyền huyễn thế giới cường đại thế gia thiếu gia, chỉ vì tại yến hội bên...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Bán Đạo Thanh...</p>
+                        </div>
+
+                        <div>
+                            <p>Huyền Huyễn</p>
+                        </div>
+                    </div>
+                </div>
+                 <!--Book-6-->
+                 <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-6.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Yêu Nữ Trốn Chỗ Nào</h3>
+                        <p>Lý Hiên sau khi xuyên việt, là ôm mừng thầm tâm tình, trở thành Thành Ý Bá phủ thứ tử,...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Khai Hoang</p>
+                        </div>
+
+                        <div>
+                            <p>Tiên Hiệp</p>
+                        </div>
+                    </div>
+                </div>
+                 <!--Book-7-->
+                 <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-7.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Ta Thiên Tài Như Vậy Vì Sao Còn Muốn...</h3>
+                        <p>Lục Tiêu Nhiên xuyên qua đến Huyền Huyễn thế giới, làm sao Cẩu Hệ Thống chậm chạp...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Mộc Dịch Sinh Hỏa</p>
+                        </div>
+
+                        <div>
+                            <p>Huyền Huyễn</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Book-8-->
+                <div class="book-top-main">
+                    <div class="img-book-main">
+                        <img src="img/main-book-7.jpg" alt="Muoi_Lan_Lien_Rut_Sau_Do_Vo_Dich">
+                    </div>
+
+                    <div class="infor-book">
+                        <h3>Toàn Cầu Phế Thổ: Chỗ Tránh Nạn Vô H...</h3>
+                        <p>Thiên tai ra đến thời khắc, toàn dân xuyên việt phế thổ thế giới, đối mặt tử vong sinh tồn...</p>
+                    </div>
+
+                    <div class="infor-author">
+                        <div>
+                            <i class="fas fa-user-edit"></i>
+                        <p>Cân Cân Cân</p>
+                        </div>
+
+                        <div>
+                            <p>Khoa Huyễn</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--TOp-2-->
+            <div class="top-2">
+                <div class="tittle-main">
+                    <h1>Đang Đọc</h1>
+                    <a href="#">Xem Tất Cả</a>
+                </div>
+
+                <div class="had-read">
+                    <!--Had-read-1-->
+                    <div class="container-had-read">
+                        <div class="img-had-read">
+                            <img src="img/img-had-read/had-read-1.jpg" alt="had-red-1">
+                            <div class="infor-had-read">
+                                <h5>Nhất Kiếm Đọc Tôn</h5>
+                                <p>Đã Đọc: 48 <i class="fas fa-trash"></i></p>
+                            </div>
+                            <a href="#">Đọc Tiếp</a>
+                        </div>
+                    </div>
+                    <!--Had-read-2-->
+                    <div class="container-had-read">
+                        <div class="img-had-read">
+                            <img src="img/img-had-read/had-read-2.jpg" alt="had-red-1">
+                            <div class="infor-had-read">
+                                <h5>Bắt Đầu Ban Thưởng Bảy Cái Thẻ Nhân Vật</h5>
+                                <p>Đã Đọc: 62 <i class="fas fa-trash"></i></p>
+                            </div>
+                            <a href="#">Đọc Tiếp</a>
+                        </div>
+                    </div>
+                      <!--Had-read-3-->
+                      <div class="container-had-read">
+                        <div class="img-had-read">
+                            <img src="img/img-had-read/had-read-3.jpg" alt="had-red-1">
+                            <div class="infor-had-read">
+                                <h5>Xin Nhờ, Ta Thật Không Muốn Cùng Mỹ Nữ Chưởng Môn Yêu Đương A</h5>
+                                <p>Đã Đọc: 34 <i class="fas fa-trash"></i></p>
+                            </div>
+                            <a href="#">Đọc Tiếp</a>
+                        </div>
+                    </div>
+                     <!--Had-read-4-->
+                     <div class="container-had-read">
+                        <div class="img-had-read">
+                            <img src="img/img-had-read/had-read-4.jpg" alt="had-red-1">
+                            <div class="infor-had-read">
+                                <h5>Phục Thiên Thị</h5>
+                                <p>Đã Đọc: 188 <i class="fas fa-trash"></i></p>
+                            </div>
+                            <a href="#">Đọc Tiếp</a>
+                        </div>
+                    </div>
+                    <!--Had-read-5-->
+                    <div class="container-had-read">
+                        <div class="img-had-read">
+                            <img src="img/img-had-read/had-read-5.jpg" alt="had-red-1">
+                            <div class="infor-had-read">
+                                <h5>Tiên Võ Đế Tôn</h5>
+                                <p>Đã Đọc: 290 <i class="fas fa-trash"></i></p>
+                            </div>
+                            <a href="#">Đọc Tiếp</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="introduc">
+                    <div class="tittle-main">
+                        <h1>Hướng Dẫn</h1>
+                        <a href="#">Xem Tất Cả</a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Làm sao đổi màu nền, cỡ chữ, front chữ</a></li>
+                        <li><a href="#">Hoa là gì và dùng để làm gì?</a></li>
+                        <li><a href="#">Làm sao để có hoa?</a></li>
+                        <li><a href="#">Hoa Tồn Tại Được Bao Lâu?</a></li>
+                        <li><a href="#">Quy Định Khi Tặng Hoa</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <!--List book-->
+            <div class="list-book"></div>
+        </div>
+        <!--Foodter-->
+        <div class="foodter"></div>
+    </div>
+</body>
+</html>
