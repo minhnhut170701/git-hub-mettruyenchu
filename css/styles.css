@@ -2,6 +2,129 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 0;
+    margin: 0;
+}
+/*header box*/
+.hearder .top-header{
+    background:  #f4f4f4;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.top-header div{
+    padding: 10px;
+    position: relative;
+    right: 15%;
+}
+.top-header div a{
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.top-header div a:hover{
+    color: rgb(168, 117, 40);
+}
+/*center-header box*/
+.center-header{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 10px;
+}
+
+
+.center-header .form-search{
+    width: 30%;
+    position: relative;
+    top: 30px;
+    left: -60px;
+}
+
+.form-search nav{
+    border-radius: 30px;
+    background: white!important;
+   color: #333!important;
+   border: 1px solid rgb(168, 117, 40) ;
+}
+
+.form-search nav .collapse .form-inline{
+        width: 100%;
+}
+
+.form-inline .md-form .form-edit{
+    color: #333!important;
+    width: 300px;
+}
+
+
+.form-inline .btn-edit{
+    word-wrap: break-word;
+    position:absolute;
+    background: inherit;
+    padding: 8px;
+   left: 85%;
+   border: none;
+}
+
+.center-header .logo img{
+    width: 100%;
+    height: 80px;
+   position: relative;
+   top: 10px;
+}
+
+.icon-header{
+    display: flex;
+    align-items: center;
+    width: 8%;
+    height: 50px;
+    border:  1px solid #333;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+.icon-header i{
+    margin-left: 20px;
+}
+.icon-header p{
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+.icon-header:hover{
+    background-color: #333;
+    color: white;
+}
+
+/*header-3 box*/
+.bottom-header{
+    background: #666;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.bottom-header .menu-1 .menu-item{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 8px;
+    left:70px;
+}
+
+
+
+
+
+
+
 
 .dropdown {
     position: relative;
@@ -16,6 +139,8 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
+    top: 40px;
+    left: 50px;
   }
 
   .dropdown:hover .dropdown-content {
@@ -37,7 +162,7 @@
     padding: .375rem 1.25rem;
     clear: both;
     font-weight: 400;
-    color: #212529;
+    color: #212529!important;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
