@@ -1,0 +1,388 @@
+.tittle-main{
+    display: flex;
+}
+div{
+    display: block;
+}
+.list-dg{
+    position: relative;
+    height: auto;
+    background-color: #fff;
+    width: 80%;
+    top: 30px;
+    margin-left: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.list-dg .list-dg-left{
+    position: relative;
+    display: block;
+    width: 70%;
+}
+
+.list-dg .list-dg-left .tittle-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-dg-left .tittle-main a{
+    color: rgb(168, 117, 40);
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+.tittle-main h1{
+    font-size: 1em;
+}
+
+
+.list-dg .list-dg-left .container-list-dg{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    position: relative;
+    margin-left: 50px;
+}
+
+
+
+.lg-1{
+    display: flex;
+    position: relative;
+    left: -90px;
+}
+
+.lg-1 .img-book-lg a img{
+    width: 72px;
+    height: 96px;
+}
+
+.lg-1 .container-infor-lg .infor-dg{
+    display: flex;
+    position: relative;
+    top: -8px;
+}
+
+.infor-dg h4{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: .9375rem;
+    color: white;
+    background-color: #bf2c24;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+}
+.infor-dg p{
+    color: #088860;
+    margin-left: 10px;
+}
+ 
+.infor-author-lg{
+    display: flex;
+    align-items: center;
+}
+
+
+.infor-author-lg .author-lg{
+    display: flex;
+    position: relative;
+    top: -20px;
+    font-size: .875rem;
+}
+
+.author-lg i{
+   margin-top: 10px;
+   
+}
+.infor-author-lg .tl-lg{
+    text-align: center;
+}
+
+.infor-author-lg .tl-lg h5{
+    border: 1px solid rgb(168, 117, 40);
+    color: rgb(168, 117, 40);
+    font-size: .7rem;
+    width: 80px;
+    margin-bottom: 55px;
+
+
+}
+.container-infor-lg .book-lg{
+    position: relative;
+    top: -20px;
+    font-size: .875rem;
+}
+
+.text-overflow-2{
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+   text-overflow: ellipsis;
+   overflow: hidden;
+   visibility: visible;
+}
+
+.list-dg-right{
+    width: auto;
+    margin-right: 40px;
+    position: relative;
+    left: -20px;
+}
+
+
+.list-dg-right .box-lg-1{
+    background-color: #f7f5f0;
+}
+
+.infor-lg-right{
+    display: flex;
+}
+.infor-lg-right .img-lg-right img{
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+
+.flex-title{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 1em;
+}
+.flex-title h5{
+    font-size: 1em;
+}
+
+
+
+.flex-title p{
+    margin-top: 10px;
+}
+
+.infor-lg-right-text .pos{
+    font-size: 1em;
+    position: relative;
+    left: 20px;
+}
+
+.infor-lg-right .diem-dg-right{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+    background-color: #bf2c24;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.diem-dg-right h5{
+    font-size: .875rem;
+}
+
+
+/*List-Finish*/
+
+.list-finish{
+    position: relative;
+    top: 200px;
+    width: 80%;
+    left: 8%;
+}
+.media a img{
+    width: 72px;
+    height: 96px;
+}
+
+.media .infor-book-finish{
+    position: relative;
+    top: -10px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.infor-book-finish p{
+    margin-top: -40px;
+    font-size: 0.875rem;
+}
+
+.infor-book-finish a{
+    text-decoration: none;
+    color: #333;
+  position: relative;
+  top: -10px;
+}
+.infor-book-finish a h5{
+    font-size: 1em;
+}
+.infor-book-finish a:hover{
+    color: rgb(168, 117, 40);
+}
+
+.infor-book-finish .user-finish{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.flex-finish p{
+    margin-left: 20px;
+    margin-top: -25px!important;
+}
+.user-finish .tl-finish{
+    border: 1px solid rgb(168, 117, 40);
+    color: rgb(168, 117, 40);
+    width: 50px;
+    height: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.tl-finish span{
+    font-size: .765rem;
+    position: relative;
+    display: block;
+    align-items: center;
+}
+
+.finish-right .tittle-main{
+    justify-content: space-between;
+}
+
+.finish-right .tittle-main a{
+    color: rgb(168, 117, 40);
+    text-decoration: none;
+}
+
+/*finish-left*/
+
+.finish-left{
+    background-color: #f7f5f0;
+    border-radius: 20px;
+    height: 500px;
+}
+
+
+.slide-container{
+    display: flex;
+}
+.slide-container .slide{
+    padding: -20px;
+    position: relative;
+    left: -30px;
+    margin: 0 -20px;
+    margin-top: 50px;
+}
+
+.slide-container .slide a img{
+    width: 140px;
+    height: 186px;
+}
+
+.button-siwper{
+    position: absolute;
+    top: 35%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.button-siwper div i{
+    font-size: 2em;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.button-siwper .next{
+    margin-right: 10px;
+}
+.button-siwper .back{
+    margin-left: 10px;
+}
+
+.tittle-main a{
+    text-decoration: none;
+    color: rgb(168, 117, 40);
+}
+
+.full-box-left .tittle-main{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.infor-group-book{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.infor-group-book ul{
+    margin: 0 -30px;
+}
+.infor-group-book ul li{
+   list-style: none;
+   text-align: center;
+}
+
+.infor-group-book ul .flex-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infor-group-book ul .flex-li .flex-user-li{
+   display: flex;
+   align-items: center;
+}
+
+.infor-group-book ul .flex-li .flex-user-li p{
+    position: relative;
+    top: 10px;
+}
+
+/*footer*/
+.foodter{
+    background: url(../img/footer-bg.png) bottom;
+    margin-top: 15%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border-top: 1px solid rgb(185, 185, 185);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.foodter .menu-footer ul{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+.foodter .menu-footer ul li{
+    list-style: none;
+}
+
+.foodter .menu-footer ul li a{
+    color: #333;
+    text-decoration: none;
+}
+
+.foodter .menu-footer ul li a:hover{
+    color: rgb(168, 117, 40);
+}
+
+.logo-footer img{
+    width: 90px;
+    height: 100px;
+}
